@@ -1,0 +1,13 @@
+{
+  "name": "hide-area-recommended-tip-ranking",
+  "author": "Fumito MIZUNO",
+  "description": "Hides tips ranking",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://alis.to/"],
+      "css": ["css/hide.css"]
+    }
+  ]
+}
